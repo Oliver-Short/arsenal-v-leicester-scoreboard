@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/ignis-et-glacies-sharp-2" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Scoreboard</title>
+</head>
+
+
+
+<body>
+    <div class="container">
+ 
+        <div class="team-container">
+
+            <h1 class="team" id="home-team"></h1>
+                <div id="home-score" class="score"></div>
+                <button id="goal" onclick="homeGoal(1)">GOAL!</button>
+                <select id="kit-color" class="home-kit">
+                    <option>Home</option>
+                    <option>Away</option>
+                </select>
+        </div>
+        
+        <div class="team-container">
+
+            <h1 class="team" id="away-team"></h1>
+                <div id="away-score" class="score"></div>
+                <button id="goal" onclick="awayGoal(1)">GOAL!</button>
+                <select id="kit-color" class="away-kit">
+                    <option>Away</option>
+                    <option>Home</option>
+                </select>
+            </div>
+    </div>
+
+    <button class="new-game" onclick="newGame()">New Game</button> 
+
+    <div id="timer">
+        <h2>Timer</h2>
+        <p id="timer-display"></p>
+    </div>
+
+    <div class="goal-pic">
+        <img id="gyokeres" src="gyokeres.png" alt="gyokeres" onclick="homeGoal()">
+        <img id ="okazaki" src="okazaki.png" alt="okazaki"> 
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>

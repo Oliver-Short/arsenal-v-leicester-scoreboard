@@ -1,0 +1,87 @@
+body {
+font-family: 'Ignis et Glacies Sharp', sans-serif;     
+background-color: #FFFFFF;
+text-align: center;    
+min-width: 600px;                                   
+}
+
+#home-team, #away-team {
+    color: #1C011E;
+    margin: 50px;
+}
+
+.container {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.new-game {
+    padding: 7px 10px 5px 8px;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; 
+    border-radius: 50px;
+    border: 2px solid #C48F82;
+    cursor: pointer;
+}
+
+.new-game:hover {
+    background-color: #1C011E;
+    color: #C48F82;
+    border-radius: 50px;
+}
+
+#goal {
+    background-color: #C48F82;
+    color: #1C011E;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+#goal:hover {
+    background-color: #1C011E;
+    color: #C48F82;
+}
+
+.score {
+    display: flex;
+    width: 130px;
+    height: 100px;
+    font-size: 90px;
+    margin: auto;
+    padding: 20px;
+    background-color: #BF7F4A;
+    color:#1C011E;
+    border: 1px solid #1C011E;
+    border-radius: 20px;
+}
+
+#timer {
+    background-color: #A7A358;
+    color: #1C011E;
+    width: 120px;
+    line-height: 25px;
+    font-size: 20px;
+    display: block;
+    margin-top: 60px;
+    margin: auto;
+    border: 1px solid #1C011E;
+    border-radius: 20px;
+}
+
+.goal-pic {
+    display: flex;
+    justify-content: space-between;
+    width:  300px;
+    height: 200px;
+    padding: 70px;
+    margin: auto;
+}
